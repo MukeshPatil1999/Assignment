@@ -1,0 +1,4 @@
+bugs: 
+1. In remove_data() function, when we remove an element from the linked list, we need to free the memory of removed node to avoid memory leaks.
+   we can use free() function to dealocate memory.
+2. we can use pthread_mutex_lock() and pthread_mutex_unlock() calls for thread safety when modifying the list.
